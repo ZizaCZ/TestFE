@@ -1,0 +1,49 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "📌";
+    display: inline-block;
+    margin-right: 0.2rem;
+}
+
+ul ul li::before {
+    content: "✅";
+}
+
+div {
+    display: none;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}

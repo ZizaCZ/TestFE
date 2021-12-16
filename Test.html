@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jiří Kraus">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="My_Style.css">
+    <title>Test FE</title>
+</head>
+
+<body>
+    <header>
+        <h1>Test</h1>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Jiří"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Kraus"><br><br>
+    </header>
+    <ul>
+        <li onclick="Hide()">→Burgr←</li>
+        <ul>
+            <div id="Burgr">
+                <li>Mleté Maso</li>
+                <li>Zelenina</li>
+                <li>Bulka</li>
+                <li>Dresing</li>
+            </div>
+        </ul>
+        <li onclick="Hide()">→Tortilla←</li>
+        <ul>
+            <div id="Tortilla">
+                <li>Smažené Maso</li>
+                <li>Zelenina</li>
+                <li>Dresing</li>
+                <li>Tortilla</li>
+            </div>
+        </ul>
+    </ul>
+
+    <label for="fname">Napiš tag</label><br>
+    <input type="text" name="fname" id="inputs" value="mytag"><br>
+    <button onclick="Add()">Přidat Tag</button>
+
+    <p id="demo"></p>
+    <script src="myscripts.js"></script>
+    <footer>
+        <p>odkazy na moje práce</p>
+        <a href="https://github.com/ZizaCZ/Maturitni-Prace" class="btn btn-success">Maturitní práce</a>
+        <a href="https://github.com/ZizaCZ/Scripts-and-Rooms" class="btn btn-success">Projekt</a>
+    </footer>
+</body>
+
+</html>
